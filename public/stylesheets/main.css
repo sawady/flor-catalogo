@@ -7,6 +7,14 @@ img {
   clip-path: polygon(0px 208px, 146.5px 207px, 147px 141.2px, ...);
 }
 
+h4 {
+  color: #2974A8;
+  font-family: Tahoma,sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
 .nav,.pagination,.carousel,.panel-title a {
 	cursor: pointer;
 }
@@ -29,6 +37,10 @@ img {
 .search-form {
   overflow-y: scroll; 
   height: 100%;
+  padding: 10px;
+  border: 1px solid #CDD0D4;
+  background: white;
+  border-radius: 4px;
 }
 
 .botonUsuario {
@@ -47,9 +59,10 @@ img {
 }
 
 body {
-/* 	background: #292D36; */
+  background: #EDF1F5;
 	padding-top: 50px;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
+  font-family: Tahoma,sans-serif !important;
 }
 
 .row {
@@ -152,6 +165,7 @@ top: -67px;
 }
 
 .tituloPanel {
+  margin: 0px -14px;
 position: relative;
 top: -38px;
 z-index: 1;
@@ -166,40 +180,22 @@ white-space: nowrap;
 color: rgb(135,2,2);
 }
 
+.pagination>.active>a {
+  background-color: #2974A8 !important;
+  border-color: #2974A8 !important;
+}
+
 .tituloPanel > a {
-font-family: Tahoma, sans-serif;	
-font-size: 13px;
-font-weight:bold;
-text-shadow: 2px 2px 4px rgb(255,255,255);
+font-family: Tahoma, sans-serif;
+color: white;
 }
 
 .tituloPanel > a:hover {
-color: rgb(0,127,180);
-text-decoration: underline;
-}
-
-.tituloPanelMovies > a {
-color: rgb(9, 100, 181);
-}
-
-.tituloPanelGames > a {
-color: rgb(9, 100, 181);
-}
-
-.tituloPanelMusic > a {
-color: rgb(120,240,240);
-}
-
-.tituloPanelSeries > a {
-color: rgb(240, 240, 240);
-}
-
-.tituloPanelSoft > a {
-color: rgb(240, 240, 240);
+text-decoration: none;
 }
 
 .cuerpoPanel {
-position: relative; 
+position: relative;
 width: 100%; 
 height: 100%;
 background-size: 100% 100%;
@@ -393,11 +389,11 @@ bottom: 4px;
 }
 
 .panel-primary > .panel-body {
-   background: whitesmoke;
+   background: #EDF1F5;
 }
 
 .panel-primary > .panel-heading {
-	background: rgb(126,31,31);
+	background: #2974A8;
 	border-bottom: 0px;
 	padding: 8px;
 	text-shadow: 0 0 3px #004403;
@@ -433,13 +429,63 @@ bottom: 4px;
 }
 
 .panel-default {
-   border: 1px solid transparent;
-   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05);
-   border-color: rgb(255, 255, 255);
+   border-color: transparent;
+   background: transparent;
+   box-shadow: none;
 }
 
 .panel-default > .panel-body {
-	background: whitesmoke;
+  background: #EDF1F5;
+  color: #74818E;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.btn-search {
+  padding: 3px 10px;
+  width: 150px;
+  color: #636466;
+  border: 1px solid #A3A6A8;
+  background-color: #ECF0F3;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#ecf0f3),to(#d4d8db));
+  background-image: -webkit-linear-gradient(top,#ecf0f3,#d4d8db);
+  background-image: -moz-linear-gradient(top,#ecf0f3,#d4d8db);
+  background-image: -ms-linear-gradient(top,#ecf0f3,#d4d8db);
+  background-image: -o-linear-gradient(top,#ecf0f3,#d4d8db);
+  background-image: linear-gradient(top,#ecf0f3,#d4d8db);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ecf0f3',EndColorStr='#d4d8db');
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,1),inset 0 0 0 1px rgba(255,255,255,.2),0 1px 0 #fff;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,1), inset 0 0 0 1px rgba(255,255,255,.2), 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,1), inset 0 0 0 1px rgba(255,255,255,.2), 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=90);
+  opacity: .9;
+  border-radius: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-add {
+  color: #fff;
+  border: 1px solid #00448F;
+  background-color: #00448F;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3E83CD),to(#00448F));
+  background-image: -webkit-linear-gradient(top,#3E83CD,#00448F);
+  background-image: -moz-linear-gradient(top,#3E83CD,#00448F);
+  background-image: -ms-linear-gradient(top,#3E83CD,#00448F);
+  background-image: -o-linear-gradient(top,#3E83CD,#00448F);
+  background-image: linear-gradient(top,#3E83CD,#00448F);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#3E83CD',EndColorStr='#00448F');
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.4),inset 0 0 0 1px rgba(255,255,255,.2),0 1px 0 #fff;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 0 0 1px rgba(255,255,255,.2), 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 0 0 1px rgba(255,255,255,.2), 0 1px 0 #fff;
+  text-shadow: 0 -1px 0 #000;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  filter: alpha(opacity=90);
+  opacity: .9;
+  font-size: 13px;
 }
 
 .row-centered {
