@@ -221,14 +221,7 @@ overflow: auto;
 -moz-border-radius: 3px;
 border-radius: 3px;
 
-background: rgb(180,227,145); /* Old browsers */
-background: -moz-linear-gradient(top,  rgb(180,227,145) 0%, rgb(97,196,25) 50%, rgb(180,227,145) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(180,227,145)), color-stop(50%,rgb(97,196,25)), color-stop(100%,rgb(180,227,145))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgb(180,227,145) 0%,rgb(97,196,25) 50%,rgb(180,227,145) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgb(180,227,145) 0%,rgb(97,196,25) 50%,rgb(180,227,145) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgb(180,227,145) 0%,rgb(97,196,25) 50%,rgb(180,227,145) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgb(180,227,145) 0%,rgb(97,196,25) 50%,rgb(180,227,145) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+background: rgb(193, 217, 240); /* Old browsers */
 }
 
 .showUpDescriptionGames {
