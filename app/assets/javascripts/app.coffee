@@ -37,19 +37,19 @@ angular.module('myApp.routeConfig', ['ngRoute'])
             .when('/soft/form', {
                 templateUrl: '/assets/partials/forms/formSoft.html'
             })
-            .when('/movies/:posteador?', {
+            .when('/movies', {
                 templateUrl: '/assets/partials/viewMovies.html'
             })
-            .when('/games/:posteador?', {
+            .when('/games', {
                 templateUrl: '/assets/partials/viewGames.html'
             })
-            .when('/music/:posteador?', {
+            .when('/music', {
                 templateUrl: '/assets/partials/viewMusic.html'
             })
-            .when('/series/:posteador?', {
+            .when('/series', {
                 templateUrl: '/assets/partials/viewSeries.html'
             })
-            .when('/soft/:posteador?', {
+            .when('/soft', {
                 templateUrl: '/assets/partials/viewSoft.html'
             })
             .otherwise({redirectTo: '/movies/'})
