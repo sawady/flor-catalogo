@@ -41,7 +41,7 @@ class SaveSoftCtrl
        @SoftService.getFromLPW(@cloneInput).then(() =>
             @item = @SoftService.selectedItem
             @item.postID = ""
-            @item.posteador = "sawadypap"
+            @item.posteador = "FllorTV"
             @refreshForm()
        )
 

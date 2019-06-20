@@ -50,7 +50,7 @@ class SaveSerieCtrl
        @SerieService.getFromLPW(@cloneInput).then(() =>
             @item = @SerieService.selectedItem
             @item.postID = ""
-            @item.posteador = "sawadypap"
+            @item.posteador = "FllorTV"
             @refreshForm()
        )
 

@@ -41,7 +41,7 @@ class SaveMusicCtrl
        @MusicService.getFromLPW(@cloneInput).then(() =>
             @item = @MusicService.selectedItem
             @item.postID = ""
-            @item.posteador = "sawadypap"
+            @item.posteador = "FllorTV"
             @refreshForm()
        )
 

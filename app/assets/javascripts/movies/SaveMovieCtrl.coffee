@@ -41,7 +41,7 @@ class SaveMovieCtrl
        @MovieService.getFromLPW(@cloneInput).then(() => 
             @movie = @MovieService.selectedItem
             @movie.postID = ""
-            @movie.posteador = "sawadypap"
+            @movie.posteador = "FllorTV"
             @refreshForm()
        )
 

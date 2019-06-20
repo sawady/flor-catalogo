@@ -44,7 +44,7 @@ class SaveGameCtrl
        @GameService.getFromLPW(@cloneInput).then(() =>
             @item = @GameService.selectedItem
             @item.postID = ""
-            @item.posteador = "sawadypap"
+            @item.posteador = "FllorTV"
             @refreshForm()
        )
 
